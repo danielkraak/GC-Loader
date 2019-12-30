@@ -80,6 +80,7 @@
 
 ### Further Details
 <b>DI_GCODE_SET_DISK_FRAGS</b>
+
 After initializing a fragment table transfer (DICMDBUF0=0xB3000001), GCLoader expects the actual fragments from the GameCube. In one single transfer, one fragment can be sent. Arguments should be as follows:
 - DICMDBUF0: Offset in file (byte offset)
 - DICMDBUF1: Size of the fragment (in bytes)
