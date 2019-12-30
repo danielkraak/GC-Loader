@@ -62,11 +62,11 @@
         </td>
         <td>If yy = 1: <br />
             - 0x00: ready to receive frag table <br />
-            - 0x04: Error; Disc number too high <br />
-            - 0x03: Error; too many fragments <br /><br />
+            - 0x04: Error; Disc number too high (GC Loader supports up to 2 discs) <br />
+            - 0x03: Error; too many fragments (can store up to 40 fragments per disc)<br /><br />
             If yy=2: <br />
             - 0x00: Success; changed active disc<br />
-            - 0x04: Error; Disc number too high <br />
+            - 0x04: Error; Disc number too high (GC Loader supports up to 2 discs)<br />
         </td>
         <td>Set the disk frags or change active disc.<br /><br />
             yy=1: Initialize frag table transfer <br /><br />
