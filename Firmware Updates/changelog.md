@@ -1,4 +1,7 @@
 1.0.1:\
+	- Added safe firmware updates (recovery firmware image is written).\
+	- Workaround for hidden filenames (boot.iso.iso, boot.gcm.gcm are also detected at boot).\
+1.0.1:\
     - Fixed some stability issues.\
     - Decreased FPGA boot time.\
 1.0.0:\
