@@ -1,4 +1,4 @@
-1.0.1:\
+1.1.0:\
 	- Added safe firmware updates (recovery firmware image is written).\
 	- Workaround for hidden filenames (boot.iso.iso, boot.gcm.gcm are also detected at boot).\
 1.0.1:\
