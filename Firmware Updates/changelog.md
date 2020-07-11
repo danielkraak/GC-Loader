@@ -13,4 +13,4 @@
     emulated more accurately.\
 0.10.0:\
     - 'no disc' is simulated, when SD Card is not inserted or 'boot.iso' is\
-    missing.\
+    missing.
