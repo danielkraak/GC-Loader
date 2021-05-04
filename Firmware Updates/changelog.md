@@ -1,3 +1,9 @@
+1.1.2:\
+	– Fixed stability issues encountered on certain boards (introduced in 1.1.1).\
+1.1.1:\
+	– Fixed random corrupted audiostreaming sound\
+	– Added some small optimizations\
+	– Cleaned up codebase.\
 1.1.0:\
 	- Added safe firmware updates (recovery firmware image is written).\
 	- Workaround for hidden filenames (boot.iso.iso, boot.gcm.gcm are also detected at boot).\
